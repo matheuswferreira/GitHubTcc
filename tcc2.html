@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/css_reset.css">
+    <link rel="stylesheet" href="CSS/tcc2.css">
+    <title>Identificação Arbórea 2</title>
+</head>
+<body>
+    <section>
+        <div class="tituloPrincipal">
+            <h1>Identificação Arbórea</h1>
+        </div>
+        <div>
+            <h3 class="subTitulo" style="padding:20px;">Preencha os campos abaixo!</h3>
+        </div>
+        <div class="pesquisaArvore">
+            <div class="pergunta">
+                <label for="nomeArvore" class="negrito">Nome da Árvore :</label>
+
+                <input type="text" id="nomeArvore" class="block">
+            </div>
+            <div class="pergunta" style="border-bottom: 1px dashed black;">
+
+                <label for="nomeCientifico" class="negrito">Nome Cientifico :</label>
+
+                <input type="text" id="nomeCientifico" class="block">
+
+                <label for="" style="display: block; padding-left: 170px;">Não necessário</label>
+            </div>
+        </div>
+        <div>
+            <p class="negrito" >A árvore é :</p>
+            <div class="divRadioArvore">
+                <input type="radio" name="radioArvore" id="">Frutifera
+            </div>
+            <div class="divRadioArvore" style="border-bottom: 1px dashed black; ">
+                <input type="radio" name="radioArvore">Sem frutos
+            </div>
+        </div>
+        <div>
+            <p class="negrito">Tipos de Troncos</p> 
+            <div class="radioTroncos">
+                <input type="radio" name="radioTronco">Quadrado
+            </div>
+            <div class="radioTroncos">
+                <input type="radio" name="radioTronco">Redondo
+            </div>
+            <div class="radioTroncos" style="border-bottom: 1px dashed black;">
+                <input type="radio" name="radioTronco">Triangular
+            </div>
+        </div>
+        <div class="botaoEnviar">
+            <button class="botaoPesquisar">Pesquisar</button>
+        </div>
+    </section>    
+</body>
+</html>

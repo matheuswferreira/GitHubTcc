@@ -1,0 +1,95 @@
+body{
+    background-image: url("https://28546.cdn.simplo7.net/static/28546/sku/tricoline-estampada-tricoline-folhas-costela-de-adao-fundo-verde-trico8991--p-1609335657581.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+section{
+    background-color: rgb(255, 255, 255);
+    max-width: 550px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    box-shadow:0 0 10px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.tituloPrincipal {
+    font-size: 30px;
+    padding: 20px;
+    border-bottom: 2px dashed black;
+    text-align: center;
+    border: 1px olid rgb(221, 132, 132);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.subTitulo {
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.pesquisaArvore{
+    display: flex;
+    flex-direction: column;
+}
+
+.pergunta{
+    margin-bottom: 4px;
+    padding-left: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.negrito{
+    font-weight: bold;
+    padding: 20px;
+}
+
+.block{
+    border-radius: 10px;
+}
+
+.divRadioArvore{
+    padding-left: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-weight: bold;
+}
+
+.radioTroncos{
+    padding-left: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.botaoEnviar {
+    text-align: center;
+    padding: 25px;
+}
+
+.botaoPesquisar{
+    cursor: pointer;
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.botaoPesquisar:active{
+    border-color: rgb(253, 165, 0);
+}
+
+.botaoPesquisar:hover{
+    color:black;
+    background-color: rgb(223, 209, 130);
+    font-weight: bolder;
+    
+}
