@@ -1,8 +1,5 @@
 body{
-    background-image: url("https://28546.cdn.simplo7.net/static/28546/sku/tricoline-estampada-tricoline-folhas-costela-de-adao-fundo-verde-trico8991--p-1609335657581.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("https://image.freepik.com/vetores-gratis/padrao-sem-emenda-de-bela-moden-primavera-com-folhas-verdes-sobre-fundo-verde-claro-folhas-e-papeis-de-parede-de-flores-fundo-floral_176161-458.jpg");
 }
 
 section{
@@ -26,6 +23,10 @@ section{
     border: 1px olid rgb(221, 132, 132);
     text-transform: uppercase;
     font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
 }
 
 .subTitulo {
@@ -84,12 +85,12 @@ section{
 }
 
 .botaoPesquisar:active{
-    border-color: rgb(253, 165, 0);
+    border-color: rgb(4, 160, 12);
 }
 
 .botaoPesquisar:hover{
     color:black;
-    background-color: rgb(223, 209, 130);
+    background-color: rgb(97, 211, 52);
     font-weight: bolder;
     
 }
