@@ -79,6 +79,29 @@ main{
     padding-bottom: 25px;
 }
 
+.subtipoFolhas{
+    font-weight: bold;
+    padding: 20px;
+}
+
+.radioSubtipoFolhas{
+    padding-left: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.divSubtipoPina {
+    display: none;
+}
+
+.divSubtipoPalma{
+    display: none;
+}
+
+.divSubtipoPeda{
+    display: none;
+}
+
 .botaoEnviar {
     text-align: center;
     padding: 25px;

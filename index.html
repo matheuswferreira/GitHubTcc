@@ -7,6 +7,14 @@
     <link rel="stylesheet" href="CSS/css_reset.css">
     <link rel="stylesheet" href="CSS/tcc2.css">
     <title>Identificação Arbórea</title>
+    <script>
+        function mostrar(id){
+            if (document.getElementById(id).style.display == 'block'){
+                document.getElementById(id).style.display = 'none';
+            } else{ document.getElementById(id).style.display = 'block';}
+        }
+    </script>
+
 </head>
 <body>
     <main>
@@ -29,27 +37,116 @@
                 <input type="text" id="nomeCientifico" class="block">
             </div>
         </div>
-        <div>
+        <div class="divTroncos">
             <p class="negrito" >Tipos de Tronco :</p>
             <div class="radioTroncos">
+
                 <input type="radio" name="radioTronco" id="">Aéreo
+
             </div>
             <div class="radioTroncos" >
+
                 <input type="radio" name="radioTronco">Ereto
+
             </div>
             <div class="radioTroncos" style="border-bottom: 1px dashed black; ">
+
                 <input type="radio" name="radioTronco" id="">Robusto
+
             </div>
         </div>
-        <div>
+        <div class="divFolhas">
+
             <p class="negrito">Tipos de Folhas</p> 
+
             <div class="radioFolhas">
-                <input type="radio" name="radioFolha">Completas
+                <input type="radio" name="radioFolha" onclick="mostrar('subtipoPina')">Pinatinérvea
+
+            </div>
+            <div class="radioFolhas" >
+
+                <input type="radio" name="radioFolha" onclick="mostrar('subtipoPalma')">Palmatinérvea
+
             </div>
             <div class="radioFolhas" style="border-bottom: 1px dashed black;">
-                <input type="radio" name="radioFolha">Incompletas
+
+               <input type="radio" name="radioFolha" onclick="mostrar('subtipoPeda')">Pedatinérvea
+
             </div>
         </div>
+        <div class="divSubtipoPina" id="subtipoPina">
+            <p class="subtipoFolhas">Subtipos da folha Pinatinérvea</p>
+
+            <div class="radioSubtipoFolhas">
+
+                <input type="radio" name="radioSubtipoFolha">Pinatifida
+
+            </div>
+            <div class="radioSubtipoFolhas">
+
+                <input type="radio" name="radioSubtipoFolha">Pinatipartida
+
+            </div>
+            <div class="radioSubtipoFolhas">
+
+                <input type="radio" name="radioSubtipoFolha">Pinatissecta
+
+            </div>
+            <div class="radioSubtipoFolhas" style="border-bottom: 1px dashed black;">
+
+                <input type="radio" name="radioSubtipoFolha">Pinaticomposta
+
+            </div>
+        </div>
+        <div class="divSubtipoPalma" id="subtipoPalma"> 
+            <p class="subtipoFolhas">Subtipos da folha Palmatinérvea</p>
+
+            <div class="radioSubtipoFolhas">
+
+                <input type="radio" name="radioSubtipoFolha">Palmatáfida
+
+            </div>
+            <div class="radioSubtipoFolhas">
+
+                <input type="radio" name="radioSubtipoFolha">Palmatipartida
+
+            </div>
+            <div class="radioSubtipoFolhas">
+
+                <input type="radio" name="radioSubtipoFolha">Palmatissecta
+
+            </div>
+            <div class="radioSubtipoFolhas" style="border-bottom: 1px dashed black;">
+
+                <input type="radio" name="radioSubtipoFolha">Palmaticomposta
+
+            </div>
+        </div>
+        <div class="divSubtipoPeda" id="subtipoPeda"> 
+            <p class="subtipoFolhas">Subtipos da folha Pedatinérvea</p>
+
+            <div class="radioSubtipoFolhas">
+
+                <input type="radio" name="radioSubtipoFolha">Pedatifida
+
+            </div>
+            <div class="radioSubtipoFolhas">
+
+                <input type="radio" name="radioSubtipoFolha">Pedatipartida
+
+            </div>
+            <div class="radioSubtipoFolhas">
+
+                <input type="radio" name="radioSubtipoFolha">Pedatissecta
+
+            </div>
+            <div class="radioSubtipoFolhas" style="border-bottom: 1px dashed black;">
+
+                <input type="radio" name="radioSubtipoFolha">Pedaticomposta
+
+            </div>
+        </div>
+        
         <div class="botaoEnviar">
             <a href="itensBancoDeDados.html"><button class="botaoPesquisar">Pesquisar</button></a>
         </div>
