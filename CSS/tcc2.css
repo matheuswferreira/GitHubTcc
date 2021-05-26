@@ -48,7 +48,18 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 403px;
+    margin-right: 5%;
+    
+}
+@media screen and (min-width: 690px){
+
+    .pergunta{
+        width: 403px;
+    }
+    .block{
+        width: 200px;
+    }
+
 }
 
 .negrito{
@@ -60,7 +71,7 @@ main{
 .block{
     border-radius: 10px;
     height: 20px;
-    width: 200px;
+    width: 150px;
     padding: 2px 0px 2px 10px; 
     outline: none;
 }
